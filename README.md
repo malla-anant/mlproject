@@ -1,11 +1,11 @@
 ## End to End Machine Learning Project
 
-# 🎯 Student Exam Performance Prediction
+### 🎯 Student Exam Performance Prediction
 
 This project predicts a student’s **Math Score** based on features such as gender, race/ethnicity, parental education, lunch type, test preparation course, and other scores.  
 It uses **Machine Learning** and serves predictions through a **Flask web application**.
 
-## 📌 Features
+### 📌 Features
 - Predicts math scores from student background and test data.
 - End-to-end ML pipeline:
   - Data ingestion
@@ -14,11 +14,11 @@ It uses **Machine Learning** and serves predictions through a **Flask web applic
 - Best model saved for deployment.
 - Flask web app for real-time predictions.
 
-## 🖥️ Demo
+### 🖥️ Demo
 
 <img width="574" height="307" alt="Screenshot 2025-08-12 172340" src="https://github.com/user-attachments/assets/014ccb3b-0f45-430d-ab8b-5ebd9caf73d0" />
 
-## 📂 Project Structure
+### 📂 Project Structure
 
 mlproject/
 
@@ -49,7 +49,7 @@ mlproject/
 └── README.md
 
 
-## ⚙️ Installation & Setup
+### ⚙️ Installation & Setup
 
 **Clone the repository**
 
@@ -69,12 +69,12 @@ python -m src.pipeline.train_pipeline
 python app.py
 Access the app at http://127.0.0.1:5000
 
-## 📊 Model Training
+### 📊 Model Training
 
 Multiple regression models were tested (Linear Regression, CatBoost, XGBoost, etc.).
 
 Best model: Linear Regression with R² score ≈ 0.88.
 
-## 📦 Technologies Used
+### 📦 Technologies Used
 
 Python 3.12, Pandas, NumPy, Scikit-learn, Flask, CatBoost / XGBoost, HTML
