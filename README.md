@@ -21,19 +21,33 @@ It uses **Machine Learning** and serves predictions through a **Flask web applic
 ## 📂 Project Structure
 
 mlproject/
+
 │
+
 ├── app.py # Flask application entry point
+
 ├── src/
+
 │ ├── components/ # Data transformation & model trainer
+
 │ ├── pipeline/ # Training & prediction pipelines
+
 │ ├── utils.py # Utility functions
+
 │ ├── logger.py # Logging setup
+
 │ ├── exception.py # Custom exception handling
+
 │
+
 ├── artifacts/ # Saved models & preprocessors
+
 ├── templates/ # HTML templates for Flask app
+
 ├── requirements.txt # Project dependencies
+
 └── README.md
+
 
 ## ⚙️ Installation & Setup
 
@@ -63,9 +77,4 @@ Best model: Linear Regression with R² score ≈ 0.88.
 
 ## 📦 Technologies Used
 
-Python 3.12
-Pandas, NumPy
-Scikit-learn
-Flask
-CatBoost / XGBoost
-HTML
+Python 3.12, Pandas, NumPy, Scikit-learn, Flask, CatBoost / XGBoost, HTML
