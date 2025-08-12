@@ -43,25 +43,25 @@ git clone https://github.com/malla-anant/mlproject.git
 cd mlproject
 Create & activate virtual environment
 python -m venv venv
-# Windows:
+### Windows:
 venv\Scripts\activate
-# Linux/Mac:
+### Linux/Mac:
 source venv/bin/activate
-# Install dependencies
+### Install dependencies
 pip install -r requirements.txt
-# Run training pipeline
+### Run training pipeline
 python -m src.pipeline.train_pipeline
-# Run Flask app
+### Run Flask app
 python app.py
 Access the app at http://127.0.0.1:5000
 
-📊 Model Training
+## 📊 Model Training
 
 Multiple regression models were tested (Linear Regression, CatBoost, XGBoost, etc.).
 
 Best model: Linear Regression with R² score ≈ 0.88.
 
-📦 Technologies Used
+## 📦 Technologies Used
 
 Python 3.12
 Pandas, NumPy
